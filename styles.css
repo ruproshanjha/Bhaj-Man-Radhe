@@ -1,0 +1,121 @@
+/* Basic Styles */
+body {
+  font-family: 'Mukta', sans-serif;
+  background-color: #fffbea;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden; /* Remove scrolling */
+  height: 100vh; /* Ensure full height for centering */
+}
+
+h1, h2 {
+  color: #f39c12;
+}
+
+/* Header Styling */
+header {
+  background-color: #f9dd72;
+  padding: 10px 0;
+}
+
+header h1 {
+  font-family: 'Mukta', sans-serif;
+  font-size: 2.5em;
+  color: #e67e22;
+  margin: 0;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #f9dd72;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+footer p {
+  font-size: 1.2em;
+  margin: 0;
+  color: #e67e22;
+}
+
+/* Centering and Input Box */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Ensure full height for proper centering */
+  flex-direction: column;
+}
+
+.input-box {
+  border: 2px solid #f39c12;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff7e1;
+}
+
+input {
+  padding: 10px;
+  font-size: 1.2em;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #e67e22;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1em;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d35400;
+}
+
+/* Circle Styling */
+.circle {
+  width: 20vw; /* Make the circle responsive to screen size */
+  height: 20vw;
+  max-width: 200px; /* Set max and min sizes for large and small screens */
+  max-height: 200px;
+  min-width: 150px;
+  min-height: 150px;
+  background-color: #f39c12;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.om {
+  font-size: 5vw; /* Responsive font size */
+  line-height: 1;
+  color: white;
+}
+
+#clickable-area {
+  cursor: pointer; /* Make the whole section clickable */
+}
+
+#count-display {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Remove scroll behavior */
+body, html {
+  overflow: hidden;
+}

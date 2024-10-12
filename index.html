@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>प्रभु स्मरणं</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>प्रभु स्मरणं</h1>
+  </header>
+
+  <!-- Initial Input Section -->
+  <div id="initial-screen" class="center">
+    <div class="input-box">
+      <h2>जाप की संख्या तय करें</h2>
+      <input type="number" id="max-count-input" placeholder="संख्या" max="999">
+      <button onclick="startCounting()">शुरू करें</button>
+    </div>
+  </div>
+
+  <!-- Counting Section -->
+  <div id="count-screen" class="center hidden">
+    <div id="clickable-area" class="circle">
+      <div class="om"><i class="fas fa-om fa-4x om-icon"></i></div>
+    </div>
+    <div id="count-display">0</div>
+  </div>
+
+  <!-- Completion Section -->
+  <div id="completion-screen" class="center hidden">
+    <h2>जाप समाप्तम्</h2>
+    <p>हरे कृष्ण</p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>हरे कृष्ण 🦚</p>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
